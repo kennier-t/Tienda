@@ -8,26 +8,85 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>Tienda en línea</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
+
     <body>
-        <div style="text-align: center">
-            <h1>Home</h1>
-            <p>Bienvenidos a la página de la tienda</p>
-        </div>
-        <div>
-            <p style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit sagittis velit vitae ornare. Integer pellentesque erat id sodales sagittis. Aliquam aliquet ligula nec lacus maximus feugiat. In vulputate leo eu consequat laoreet. Nulla facilisi. Vivamus semper metus tortor, a ultricies massa pulvinar ac. Nam semper, ipsum nec fringilla sollicitudin, ipsum lorem molestie sem, sit amet cursus augue sem vel ante.</p>
-            <p style="text-align: right">Suspendisse varius, velit eget sollicitudin hendrerit, orci tortor viverra purus, nec tempus dolor lectus id purus. Nulla orci urna, pretium id magna eu, tempor pellentesque libero. In velit enim, molestie id dictum eget, scelerisque non ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi vel neque vitae lectus lacinia lacinia. Sed et semper nisi, et sagittis dui. Etiam vel blandit orci, id mollis risus. In vitae velit quam. Aliquam commodo pulvinar nisl, sed malesuada lorem. Ut luctus, mi a viverra finibus, nulla leo euismod elit, sed scelerisque turpis nulla quis lectus. Nam varius ex libero. Nullam eget nisl tempus, convallis ante ac, lacinia est.</p>
-            <p style="text-align: center">Vivamus tempus diam eget consequat aliquet. Nunc congue, eros quis fermentum placerat, elit nisi placerat mauris, ac tristique dui erat ut lectus. Nullam a neque id urna placerat malesuada. Aenean laoreet lorem quis quam dignissim, facilisis consectetur metus mattis. Cras eleifend tellus eget eros tristique luctus. Suspendisse tincidunt metus nec egestas interdum. Curabitur congue, erat ac molestie auctor, nisi augue euismod dolor, quis dignissim ipsum odio quis erat. Nunc pulvinar urna sem, eget venenatis augue commodo sed. Nulla porttitor maximus dui, vitae auctor lacus egestas vitae. Nulla fringilla odio et risus semper auctor. Sed id mattis mi. Phasellus et metus id leo elementum cursus. Nullam condimentum turpis quis maximus malesuada. Praesent eget orci dui. Sed tincidunt ligula ac magna cursus, vel posuere arcu pulvinar. Ut porta justo ac hendrerit vehicula.</p>
-        </div>
-        
-        <br>
-        <br>
-        <br>
-        <div style="text-align: center">
-            <p>Última línea</p>
-            <a href="/ejemplo2.html" style="text-decoration: none;">
-                <button>Settings</button>
-            </a>
-        </div>
+        <header>
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">Techshop</a>
+                <ul>
+                    <li class="nav-menu-link"><a class="nav-menu-link nav-link" href="ejemplo9.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-link"><a class="nav-menu-link nav-link" href="ejemplo2.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-link"><a class="nav-menu-link nav-link" href="ejemplo2.html">Prueba</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            <h1 style="text-align: center">Home</h1>
+            <h2>El producto más vendido</h2>
+            <p>Según los datos del mes pasado el producto x203 fue el que registró más ventas</p>
+        </aside>
+        <section>
+            <h2>Nuestros productos</h2>
+            <article>
+                <hr>
+                <h2>OmniCharge</h2>
+                <figure>
+                    <img src="https://m.media-amazon.com/images/I/61JmngvSxdL.jpg" width="200" height="200" alt="OmniCharge"/>
+                    <figcaption>Cargador portátil <button onclick="window.location.href = 'https://a.co/d/3bL0MvR';">Comprar</button></figcaption>
+                </figure>
+            </article>
+            <article>
+                <hr>
+                <h2>Thule Subterra</h2>
+                <figure>
+                    <img src="https://m.media-amazon.com/images/I/91nKMYdPOKL._AC_SX679_.jpg" width="200" height="200" alt="Bulto"/>
+                    <figcaption>Bulto para laptop <button onclick="window.location.href = 'https://a.co/d/2LvsfvM';">Comprar</button></figcaption>
+                </figure>
+            </article>
+            <article>
+                <hr>
+                <h2>3in1 Anker</h2>
+                <figure>
+                    <img src="https://m.media-amazon.com/images/I/61K2WECFOOL._AC_SL1500_.jpg" width="200" height="200" alt="Stand"/>
+                    <figcaption>Cargador Magsafe <a href="https://a.co/d/h79B358">Comprar</a></figcaption>
+                </figure>
+            </article>
+            <article>
+                <hr>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>#</td>
+                            <td>Código</td>
+                            <td>Descripción</td>
+                            <td>Precio</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>OmniCharge</td>
+                            <td>Cargador protátil</td>
+                            <td>$249</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Thule Subterra</td>
+                            <td>Bulto para laptop</td>
+                            <td>$169</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>3in1 Anker</td>
+                            <td>Cargador Magsafe</td>
+                            <td>$40</td>
+                        </tr>                        
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <footer></footer>
     </body>
 </html>
