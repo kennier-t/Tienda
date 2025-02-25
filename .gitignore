@@ -4,7 +4,20 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+### OS specific ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Firebase ###
+src/main/resources/firebase/*.json
+
+### IDE specific ###
+# STS
 .apt_generated
 .classpath
 .factorypath
@@ -13,13 +26,13 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,5 +42,5 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
