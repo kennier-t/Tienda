@@ -25,4 +25,7 @@ public interface ProductoService {
     public List<Producto> metodoJPQL(double precioInf, double precioSup);
      //Lista de productos utilizando consultas con SQL Nativo
     public List<Producto> metodoNativo(double precioInf, double precioSup);
+    
+    // Lista de productos que contienen el texto en la descripción (ignora mayúsculas/minúsculas)
+    public List<Producto> findByDescripcionContainingIgnoreCase(String textoDescripcion);
 }
